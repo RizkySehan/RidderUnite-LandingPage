@@ -1,0 +1,188 @@
+* {
+  font-family: montserrat;
+}
+
+body {
+  background-color: f1fbff;
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+.navbar-nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .navbar-link {
+  color: #000;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  bottom: 380px;
+  z-index: 2;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+}
+
+.carousel-inner::before,
+#hero-tentangkami::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+#hero-produk::before,
+#hero-event::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.about .about-text h2 {
+  text-transform: capitalize;
+}
+
+.services .card-body i {
+  font-size: 50px;
+}
+
+.produk .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.hero-text {
+  z-index: 2;
+}
+
+.card {
+  height: 100%;
+}
+
+.footer {
+  background: linear-gradient(135deg, #1f1f1f, #343a40);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer .social-icons i {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  color: #ffc107;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons i:hover {
+  color: #fff;
+}
+
+.footer .newsletter-form input[type="email"] {
+  border: none;
+  padding: 10px;
+  width: 80%;
+}
+
+.footer .newsletter-form button {
+  padding: 10px;
+  background: #ffc107;
+  border: none;
+  color: #000;
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .carousel-caption {
+    bottom: 345px;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .img-area img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .carousel-caption {
+    bottom: 150px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+
+  .carousel-caption P {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+
+  .hero-text {
+    margin-bottom: 30px;
+  }
+}

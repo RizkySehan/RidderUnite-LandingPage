@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Event - RidersUnite</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .row .col-md-6 {
+        margin-bottom: 30px;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+      }
+
+      .card-img-top {
+        object-fit: cover;
+        height: 400px;
+      }
+
+      .card-body {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .card-title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .card-text {
+        flex-grow: 1;
+        margin-bottom: 1rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .btn {
+        margin-top: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><span class="text-warning">Riders</span>Unite</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="event.html">Event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produk.html">Produk</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="hero-event"
+      class="hero d-flex align-items-center"
+      style="
+        background: url('img/touring.jpg') no-repeat center center;
+        background-size: cover;
+        height: 60vh;
+      "
+    >
+      <div class="hero-text container text-center text-white">
+        <h1 class="display-4">Event Kami</h1>
+        <p class="lead">Kumpulan Kegiatan dan Event RidersUnite</p>
+      </div>
+    </section>
+
+    <!-- Event Section -->
+    <section id="event" class="event section-padding">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2 class="display-4">Kumpulan Event</h2>
+            <p class="lead">
+              Ikuti event-event menarik yang kami adakan untuk komunitas dan
+              penggemar motor.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card shadow-lg mb-4 border-0">
+              <img src="img/touring.jpg" class="card-img-top" alt="Event 1" />
+              <div class="card-body">
+                <h3 class="card-title">Touring Jawa-Bali</h3>
+                <p class="card-text">
+                  Bersama-sama menjelajahi keindahan Jawa dan Bali dalam
+                  perjalanan yang penuh keseruan dan kebersamaan. Melalui
+                  berbagai rute menarik, peserta akan menikmati pemandangan yang
+                  luar biasa, makanan khas daerah, dan pengalaman berharga.
+                  Touring ini juga menjadi kesempatan untuk mempererat
+                  persaudaraan dan berbagi cerita serta pengalaman dengan sesama
+                  pecinta motor. Setiap etape perjalanan dirancang untuk
+                  memberikan pengalaman terbaik, mulai dari perjalanan di
+                  pegunungan hingga pantai, dengan berbagai aktivitas menarik di
+                  setiap pemberhentian.
+                </p>
+                <a href="#" class="btn btn-warning btn-lg">Detail Event</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card shadow-lg mb-4 border-0">
+              <img src="img/safety.jpg" class="card-img-top" alt="Event 2" />
+              <div class="card-body">
+                <h3 class="card-title">Safety Riding Workshop</h3>
+                <p class="card-text">
+                  Workshop ini dirancang untuk meningkatkan kesadaran dan
+                  keterampilan keselamatan berkendara di jalan raya. Dengan
+                  instruktur berpengalaman, peserta akan mendapatkan pelatihan
+                  mengenai teknik berkendara yang aman, memahami kondisi jalan,
+                  dan bagaimana menghindari kecelakaan. Workshop ini juga
+                  mencakup simulasi situasi darurat yang sering terjadi di jalan
+                  serta tips praktis dalam berkendara sehari-hari. Selain itu,
+                  peserta juga diajak untuk berdiskusi dan berbagi pengalaman
+                  mengenai situasi sulit yang pernah mereka alami di jalan.
+                </p>
+                <a href="#" class="btn btn-warning btn-lg">Detail Event</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card shadow-lg mb-4 border-0">
+              <img src="img/chariry.jpg" class="card-img-top" alt="Event 3" />
+              <div class="card-body">
+                <h3 class="card-title">Charity Ride</h3>
+                <p class="card-text">
+                  Charity Ride ini bukan hanya tentang menikmati perjalanan
+                  dengan motor, tetapi juga berbagi dengan sesama. Seluruh hasil
+                  dari kegiatan ini akan disumbangkan untuk kegiatan sosial yang
+                  membutuhkan. Rute yang dipilih menawarkan pemandangan indah
+                  dan titik pemberhentian di lokasi-lokasi yang membutuhkan
+                  bantuan, dimana peserta bisa memberikan donasi langsung. Event
+                  ini adalah kombinasi sempurna antara hobi berkendara dan
+                  keinginan untuk membantu sesama, membuat setiap kilometer
+                  perjalanan menjadi lebih berarti.
+                </p>
+                <a href="#" class="btn btn-warning btn-lg">Detail Event</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card shadow-lg mb-4 border-0">
+              <img src="img/modif.jpg" class="card-img-top" alt="Event 4" />
+              <div class="card-body">
+                <h3 class="card-title">Kompetisi Modifikasi Motor</h3>
+                <p class="card-text">
+                  Tunjukkan kreativitas dan keterampilan modifikasi motor Anda
+                  dalam kompetisi yang bergengsi ini. Setiap peserta diundang
+                  untuk membawa hasil karya modifikasi mereka, baik dari segi
+                  estetika, performa, maupun inovasi teknis. Kompetisi ini tidak
+                  hanya menjadi ajang unjuk gigi bagi para modifikator, tetapi
+                  juga kesempatan untuk belajar dari karya-karya lain dan
+                  memperluas jaringan di dunia otomotif. Juri terdiri dari pakar
+                  modifikasi motor yang akan menilai berdasarkan kriteria yang
+                  telah ditetapkan.
+                </p>
+                <a href="#" class="btn btn-warning btn-lg">Detail Event</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 pe-4">
+            <h5>RidersUnite</h5>
+            <p>
+              Komunitas motor terbesar dan paling berpengaruh di Indonesia.
+              Gabunglah dengan kami untuk pengalaman berkendara yang tak
+              terlupakan.
+            </p>
+          </div>
+          <div class="col-md-4 pe-4">
+            <h5>Informasi Kontak</h5>
+            <ul class="list-unstyled">
+              <li>Alamat: Jl. Motor No. 1, Jakarta</li>
+              <li>Telepon: (021) 123-4567</li>
+              <li>Fax: (021) 765-4321</li>
+              <li>Email: info@ridersunite.com</li>
+            </ul>
+          </div>
+          <div class="col-md-4 pe-4">
+            <h5>Ikuti Kami</h5>
+            <div class="social-icons">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center mt-4">
+          <div class="col-12">
+            <p>&copy; 2024 RidersUnite. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
